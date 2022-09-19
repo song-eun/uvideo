@@ -1,0 +1,45 @@
+.displayContain {
+  display: inline-block;
+  margin-right: 10px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 13px;
+  margin-bottom: 10px;
+  /* padding-bottom: ; */
+}
+
+.timeCursor {
+  position: absolute;
+  top: 40%;
+  width: 5px;
+  height: 13px;
+  background-color: #ffffff;
+  -webkit-transition: left 0.5s linear 0s;
+  transition: left 0.5s linear 0s;
+}
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: #cccccc;
+  height: 15px;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  /* padding: 10px; */
+  /* margin: 10px; */
+}

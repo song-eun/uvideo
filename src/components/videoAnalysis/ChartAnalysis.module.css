@@ -1,0 +1,20 @@
+.chartContain {
+  margin: 25px;
+  /* padding: 25px; */
+  height: 250px;
+  background-color: white;
+}
+
+.divHr {
+  background-color: rgb(224, 224, 224);
+  height: 1px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.text {
+  width: 100%;
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+}

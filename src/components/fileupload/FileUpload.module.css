@@ -1,0 +1,37 @@
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color:rgb(24, 49, 83);
+  color: white;
+  border: 1px solid rgb(24, 49, 83);
+  margin: 0 1rem;
+}
+
+.btn:hover {
+  background-color: rgb(144, 185, 242);
+  border-color:  rgb(144, 185, 242);
+}
+
+.btnalt {
+  background-color: transparent;
+  color: rgb(144, 185, 242);
+}
+
+.btnalt:hover {
+  background-color: rgb(144, 185, 242);
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+}

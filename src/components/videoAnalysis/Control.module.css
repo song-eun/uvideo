@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 13px;
+  margin-bottom: 10px;
+  /* padding-bottom: ; */
+}
+
+.timeCursor {
+  position: absolute;
+  top: 40%;
+  width: 5px;
+  height: 13px;
+  background-color: #ffffff;
+  -webkit-transition: left 0.5s linear 0s;
+  transition: left 0.5s linear 0s;
+}

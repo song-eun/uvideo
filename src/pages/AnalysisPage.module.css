@@ -1,0 +1,135 @@
+.contain {
+  margin: 25px;
+  /* background-color: #e5e5e5; */
+}
+
+.analysisContainer{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.analysisDiv {
+  /* padding: 10px; */
+  height: 100%;
+  width: 85%;
+  /* max-width: 100rem; */
+  /* background-color: #e5e5e5; */
+}
+
+.btnContain {
+  display: inline-block;
+  flex-wrap: wrap;
+  width: 10em; /* flex-direction: column; 수평 정렬 */
+  position: static;
+  margin-top: 2.5rem;
+}
+
+.btnDiv {
+  overflow: auto;
+  /* background-color: aqua; */
+  height: 540px;
+  border: 3px solid #e7e7e7;
+}
+.btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid #e7e7e7;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #e7e7e7; /* Green */
+  color: black;
+}
+/**/
+
+.displayContain {
+  display: inline-block;
+  margin-right: 10px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 13px;
+  margin-bottom: 10px;
+  /* padding-bottom: ; */
+}
+
+.timeCursor {
+  position: absolute;
+  top: 40%;
+  width: 5px;
+  height: 13px;
+  background-color: #ffffff;
+  -webkit-transition: left 0.5s linear 0s;
+  transition: left 0.5s linear 0s;
+}
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: #cccccc;
+  height: 15px;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  /* padding: 10px; */
+  /* margin: 10px; */
+}
+
+.listItem {
+  position: absolute;
+  /* top: -2px; */
+  height: 15px;
+  pointer-events: none;
+}
+
+.chartContain {
+  margin: 25px;
+  /* padding: 25px; */
+  height: 250px;
+  background-color: white;
+}
+
+.objList {
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  /* margin-top: 20px;
+  margin-bottom: 20px; */
+  /* padding-top: 10px; */
+  padding-bottom: 10px;
+}
+
+.divHr {
+  background-color: rgb(224, 224, 224);
+  height: 1px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.text {
+  width: 100%;
+  font-family: "Roboto","Arial",sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
