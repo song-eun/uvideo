@@ -5,7 +5,7 @@ import Card from "../components/ui/Card";
 import Backdrop from "../components/ui/Backdrop";
 import AuthContext from "../store/auth-context";
 import FileUpload from "../components/fileupload/FileUpload";
-import MyVideos from "./MyVideos";
+import MyVideos from "../components/videoGrid/MyVideos";
 import { FaPlus } from "react-icons/fa";
 
 function MyPage(props) {
